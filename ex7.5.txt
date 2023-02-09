@@ -14,3 +14,24 @@
 # +---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+
 # |'S'|'U'|'P'|'P'|'R'|'I'|'M'|'E'|'R'|'L'|'E'|'S'|'E'|'S'|'P'|'A'|'C'|'E'|'S'|' '|' '|' '|' '| 
 # +---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+
+
+Debut suppressionEspace               
+   variables locales    
+         
+   fin variables locales
+   i <- 1
+   pour j allant de 1 à taille
+      si source[j] <>' '
+         alors
+            source[i] <- source[j]
+            i <- i + 1
+       finsi
+   j suivant
+   
+   pour k allant de i à taille
+      source[k] <- ' '
+   k suivant
+
+
+      
+Fin suppressionEspace 

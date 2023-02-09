@@ -1,0 +1,25 @@
+/*************************************************
+ * 7.1 Vecteurs : Calcul d’indices (exercice) *
+ *************************************************/
+
+/* 
+ * Complètez la table de valeurs
+ */
+
+# 1.    DEBUT exemple                    
+# 2.       VARIABLES LOCALES :                   +---------+-----+-----+--------+---------+---------+
+# 3.          CONST TAILLE:N <- 3                | N°      | ind |  a  | tab[1] |  tab[2] |  tab[3] |
+# 4.        VAR   tab:N[TAILLE]                  +---------+-----+-----+--------+---------+---------+
+# 5.        VAR   a:N <- 5                       | 1,2,3,4,|     |     |        |         |         |
+# 6.        VAR   ind:N <- 1                     | 5       |     |     |        |         |         |
+# 7.       FIN VARIABLES LOCALES                 | 6       |     |     |        |         |         |
+# 8.       tab[1] <- 2                           | 7,8     |     |     |        |         |         |
+# 9.       tab[2] <- tab[1] + 1                  | 9       |     |     |        |         |         |
+# 10.      tab[3] <- tab[ a – 3 ]                | 10      |     |     |        |         |         |
+# 11.      ind    <- a - tab[2]                  | 11      |     |     |        |         |         |
+# 12.      tab[ind] <- tab[ind + 1] + 1          | 12      |     |     |        |         |         |
+# 13.      a <- tab[tab[ind - 1]]                | 13      |     |     |        |         |         |
+# 14.      tab[ind + 1] <- tab[a - ind]          | 14      |     |     |        |         |         |
+# 15.      ind <- a – tab[ind]                   | 15      |     |     |        |         |         |
+# 16.   FIN exemple                              | 16      |     |     |        |         |         |
+#   
